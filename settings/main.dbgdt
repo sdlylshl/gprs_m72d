@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1185</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>888</ColumnWidth1><ColumnWidth2>237</ColumnWidth2><ColumnWidth3>59</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>230</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Disassembly>
+        
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly>
+    <Watch><Format><struct_types/><watch_formats><Fmt><Key>{W}Watch-0:GPS</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-0:GSM_CONFIG</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-0:GSM_ECHO</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:GSM_STATUS</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:cnt_num</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-2:GSM_STATUS</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-3:GSM_STATUS</Key><Value>1</Value><ShowAs>2</ShowAs></Fmt><Fmt><Key>{W}Watch-5:GSM_STATUS</Key><Value>1</Value><ShowAs>2</ShowAs></Fmt><Fmt><Key>{W}Watch-6:GSM_STATUS</Key><Value>1</Value></Fmt></watch_formats></Format><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>196</Column0><Column1>236</Column1><Column2>100</Column2><Column3>100</Column3></Watch><Find-in-Files><ColumnWidth0>580</ColumnWidth0><ColumnWidth1>82</ColumnWidth1><ColumnWidth2>994</ColumnWidth2></Find-in-Files><Memory><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory><QuickWatch><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></QuickWatch><Register><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Register><SymbolicMemory><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Location>88</Location><Data>88</Data><Variable>120</Variable><Value>60</Value><Type>75</Type></SymbolicMemory><TerminalIO><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><InputSource>1</InputSource><InputMode>10</InputMode><Filename>$PROJ_DIR$\TermIOInput.txt</Filename><InputEcho>1</InputEcho><ShowReset>0</ShowReset></TerminalIO></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16775-26336</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-27000-26349</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-27245-15676</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd3><Tabs><Tab><Identity>TabID-24737-23446</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>main</ExpandedNode><ExpandedNode>main/GSM</ExpandedNode><ExpandedNode>main/SPI</ExpandedNode><ExpandedNode>main/UP</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-8855-27782</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>GSM_STATUS</Expression></Expression><Expression><Expression>M72D_Brust_RX_Buf</Expression></Expression><Expression><Expression>M72D_Query_RX_Buf</Expression></Expression><Expression><Expression>M72D_SetConfig_RX_Buf</Expression></Expression><Expression><Expression>M72D_ServerData_RX_Buf</Expression></Expression><Expression><Expression>M72D_NetConfig_RX_Buf</Expression></Expression><Expression><Expression>M72D_Other_RX_Buf</Expression></Expression><Expression><Expression>GSM_Send_MCU_Buf</Expression></Expression><Expression><Expression>Heart_Beat</Expression></Expression><Expression><Expression>GSM_MCU</Expression></Expression><Expression><Expression>One_Degree_Alert_Time</Expression></Expression><Expression><Expression>UP_Root_Stat_BuF</Expression></Expression><Expression><Expression>UP_Stat_SPI_BuF</Expression></Expression><Expression><Expression>ANS_UP_SPI_Num_BuF</Expression></Expression><Expression><Expression>Send_SIM_Card_BUF</Expression></Expression></Expressions><TabId>6</TabId><Column0>196</Column0><Column1>236</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-12542-12512</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5><Wnd9><Tabs><Tab><Identity>TabID-6411-23528</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>3</ZoneNumber><SelectionAnchor>6214</SelectionAnchor><SelectionEnd>6216</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>1536</VScroll></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd9></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane/><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0114eab0><key>iaridepm.enu1</key></Toolbar-0114eab0><Toolbar-04397730><key>debuggergui.enu1</key></Toolbar-04397730></Sizes></Row0><Row1><Sizes><Toolbar-04397988><key>430fet1</key></Toolbar-04397988></Sizes></Row1></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>655</Bottom><Right>321</Right><x>-2</x><y>-2</y><xscreen>487</xscreen><yscreen>544</yscreen><sizeHorzCX>289881</sizeHorzCX><sizeHorzCY>556237</sizeHorzCY><sizeVertCX>192262</sizeVertCX><sizeVertCY>671779</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>655</Bottom><Right>189</Right><x>-2</x><y>-2</y><xscreen>366</xscreen><yscreen>224</yscreen><sizeHorzCX>217857</sizeHorzCX><sizeHorzCY>229039</sizeHorzCY><sizeVertCX>113690</sizeVertCX><sizeVertCY>671779</sizeVertCY></Rect></Wnd4></Sizes></Row0><Row1><Sizes><Wnd5><Rect><Top>-2</Top><Left>187</Left><Bottom>655</Bottom><Right>409</Right><x>187</x><y>-2</y><xscreen>366</xscreen><yscreen>224</yscreen><sizeHorzCX>217857</sizeHorzCX><sizeHorzCY>229039</sizeHorzCY><sizeVertCX>132143</sizeVertCX><sizeVertCY>671779</sizeVertCY></Rect></Wnd5></Sizes></Row1><Row2><Sizes><Wnd9><Rect><Top>-2</Top><Left>407</Left><Bottom>655</Bottom><Right>607</Right><x>407</x><y>-2</y><xscreen>200</xscreen><yscreen>202</yscreen><sizeHorzCX>119048</sizeHorzCX><sizeHorzCY>206544</sizeHorzCY><sizeVertCX>119048</sizeVertCX><sizeVertCY>671779</sizeVertCY></Rect></Wnd9></Sizes></Row2></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>254</Bottom><Right>1682</Right><x>-2</x><y>-2</y><xscreen>1684</xscreen><yscreen>256</yscreen><sizeHorzCX>1002381</sizeHorzCX><sizeHorzCY>261759</sizeHorzCY><sizeVertCX>1190</sizeVertCX><sizeVertCY>976483</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

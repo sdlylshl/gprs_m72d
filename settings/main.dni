@@ -1,0 +1,194 @@
+[State Storage]
+Control Register=0
+[Sequencer]
+Control Register=0
+NextState0=0
+NextState1=0
+[Action Register]
+Break=3
+State Storage=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DebugChecksum]
+Checksum=-424592485
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStackLog]
+Enabled=0
+[Profiling]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Source=1
+Graph=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[BreakpointUsageDialog]
+Placement=_ 618 369 1063 651
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Strategy.c}.187.5@1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$}.51.9@1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\Source\GPS}.48.9@1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$}.292.15@1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$}.146.13@1" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$}.620.7@1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$}.122.25@1" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$}.60.13@1" 0 0 0 0 "" 0 ""
+Bp8=_ "Range" "Control_Strategy" 1 "" 0 18 0 1 0 0
+Bp9=_ "STD_CODE" "{$PROJ_DIR$\..\10.22--3\10.17\Source\main.c}.63.13@1" 0 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\..\10.22--3\10.17\Source\main.c}.76.14@1" 0 0 0 0 "" 0 ""
+Bp11=_ "STD_CODE" "{$PROJ_DIR$\..\10.22--3\10.17\Source\main.c}.90.4@1" 0 0 0 0 "" 0 ""
+Bp12=_ "STD_CODE" "{$PROJ_DIR$\..\10.22--3\10.17\Source\main.c}.100.4@1" 0 0 0 0 "" 0 ""
+Bp13=_ "STD_CODE" "{$PROJ_DIR$\..\11.04}.354.7@1" 0 0 0 0 "" 0 ""
+Bp14=_ "STD_CODE" "{$PROJ_DIR$}.44.8@1" 0 0 0 0 "" 0 ""
+Bp15=_ "STD_CODE" "{$PROJ_DIR$\..\2013.12.09\Source\main.c}.70.13@1" 0 0 0 0 "" 0 ""
+Bp16=_ "STD_CODE" "{$PROJ_DIR$\..\2013.12.09\Source\main.c}.103.13@1" 0 0 0 0 "" 0 ""
+Bp17=_ "STD_CODE" "{$PROJ_DIR$\..\2013.12.09\Source\main.c}.85.5@1" 0 0 0 0 "" 0 ""
+Bp18=_ "STD_CODE" "{$PROJ_DIR$}.103.13@1" 0 0 0 0 "" 0 ""
+Bp19=_ "STD_CODE" "{$PROJ_DIR$}.54.9@1" 0 0 0 0 "" 0 ""
+Bp20=_ "STD_CODE" "{$PROJ_DIR$}.390.21@1" 0 0 0 0 "" 0 ""
+Bp21=_ "STD_CODE" "{$PROJ_DIR$}.287.19@1" 0 0 0 0 "" 0 ""
+Bp22=_ "STD_CODE" "{$PROJ_DIR$}.310.9@1" 0 0 0 0 "" 0 ""
+Bp23=_ "STD_CODE" "{$PROJ_DIR$}.332.21@1" 0 0 0 0 "" 0 ""
+Bp24=_ "STD_CODE" "{$PROJ_DIR$}.43.9@1" 0 0 0 0 "" 0 ""
+Bp25=_ "STD_CODE" "{$PROJ_DIR$}.76.5@1" 0 0 0 0 "" 0 ""
+Bp26=_ "STD_CODE" "{$PROJ_DIR$}.58.26@1" 0 0 0 0 "" 0 ""
+Bp27=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp28=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp29=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp30=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp31=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp32=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp33=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp34=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp35=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp36=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp37=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp38=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp39=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp40=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp41=_ "STD_CODE" "{$PROJ_DIR$}.164.5@1" 0 0 0 0 "" 0 ""
+Bp42=_ "STD_CODE" "{$PROJ_DIR$}.47.5@1" 0 0 0 0 "" 0 ""
+Bp43=_ "STD_CODE" "{$PROJ_DIR$}.42.9@1" 0 0 0 0 "" 0 ""
+Bp44=_ "STD_CODE" "{$PROJ_DIR$}.301.7@1" 0 0 0 0 "" 0 ""
+Bp45=_ "STD_CODE" "{$PROJ_DIR$\..\2014.03.10-01}.240.9@1" 0 0 0 0 "" 0 ""
+Bp46=_ "STD_CODE" "{$PROJ_DIR$\Source\GSM\SIM_CARD.c}.286.8@1" 0 0 0 0 "" 0 ""
+Bp47=_ "STD_CODE" "{$PROJ_DIR$\Source\GSM\SIM_CARD.c}.271.8@1" 0 0 0 0 "" 0 ""
+Count=48
+[FET]
+Clock mode=14
+Extended Clock mode=-1
+Secure Password=
+Extended Clock Control Enable=1
+Advanced Extended Clock Control=1
+Emulation mode=0
+Free running=0
+Shutting Down=3
+[Memory Dump]
+Start address=
+Lenghth=
+Address info=0
+Format=0
+Dump registers=0
+PC=0
+SP=0
+SR=0
+all registers=0
+File name=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\测试不能注册网络\2014.01.08-01\Source\main.c" "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.08-01\Source\main.c"
+A1=_ "C:\Users\山重建机\Desktop\10.24\10.24\Source\GPS\Do_GPS_Data.c" ""
+A2=_ "C:\Users\山重建机\Desktop\10.24\10.24\Source\GPS\GPS.c" "E:\布谷鸟接收文件夹\蒋本庆(001181)\10.29--1\10.29\Source\GPS\GPS.c"
+A3=_ "D:\自动接收\李凯(001367)\2013.11.19\2013.11.19\Source\GPS\Do_GPS_Data.c" "F:\WORK\GPS一体机\程序\2013.11.22\Source\GPS\Do_GPS_Data.c"
+A4=_ "D:\自动接收\李凯(001367)\2013.11.19\2013.11.19\Source\GSM\GSM_Brust.c" "F:\WORK\GPS一体机\程序\2013.11.22\Source\GSM\GSM_Brust.c"
+A5=_ "D:\自动接收\李凯(001367)\2013.11.19\2013.11.19\Source\GSM\GSM_CMD.c" "F:\WORK\GPS一体机\程序\2013.11.22\Source\GSM\GSM_CMD.c"
+A6=_ "D:\自动接收\李凯(001367)\2013.11.19\2013.11.19\Source\GSM\GSM_SendData.c" "F:\WORK\GPS一体机\程序\2013.11.22\Source\GSM\GSM_SendData.c"
+A7=_ "D:\自动接收\李凯(001367)\2013.11.19\2013.11.19\Source\GSM\GSM_Status.c" "F:\WORK\GPS一体机\程序\2013.11.22\Source\GSM\GSM_Status.c"
+A8=_ "D:\自动接收\李凯(001367)\2013.11.19\2013.11.19\Source\main.c" ""
+A9=_ "E:\布谷鸟接收文件夹\蒋本庆(001181)\10.29\10.29\Source\main.c" "E:\布谷鸟接收文件夹\蒋本庆(001181)\10.29--1\10.29\Source\main.c"
+A10=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.11.28--1\Source\GPS\Do_GPS_Data.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.04--1\Source\GPS\Do_GPS_Data.c"
+A11=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.11.28--1\Source\GPS\GPS.c" ""
+A12=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.11.28--1\Source\main.c" ""
+A13=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.05 - 1\Source\GPS\Do_GPS_Data.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.06\Source\GPS\Do_GPS_Data.c"
+A14=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.05 - 1\Source\GSM\GSM_SendData.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.06--1\Source\GSM\GSM_SendData.c"
+A15=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.05 - 1\Source\GSM\MCU_Time.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.06\Source\GSM\MCU_Time.c"
+A16=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.06--1\Source\GSM\GSM_Brust.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.10\Source\GSM\GSM_Brust.c"
+A17=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.06--1\Source\GSM\GSM_CONFIG.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.10\Source\GSM\GSM_CONFIG.c"
+A18=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.06--1\Source\GSM\GSM_Status.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.10\Source\GSM\GSM_Status.c"
+A19=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.06--1\Source\main.c" ""
+A20=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.10\Source\GPS\Do_GPS_Data.c" "F:\WORK\12.12\933D  装车\933D  装车\Source\GPS\Do_GPS_Data.c"
+A21=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.10\Source\GPS\GPS.c" "E:\布谷鸟接收文件夹\李凯(001367)\933D\Source\GPS\GPS.c"
+A22=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.16---00\2013.12.16\Source\GPS\Do_GPS_Data.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.16--2-933D试装程序\Source\GPS\Do_GPS_Data.c"
+A23=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.24-02\Source\GPS\Do_GPS_Data.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2013.12.31\Source\GPS\Do_GPS_Data.c"
+A24=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.12.24-02\Source\main.c" "C:\Users\Administrator\Desktop\GPS一体机市场验证程序\安徽922GPS一体机验证程序\2013.12.24-04\Source\main.c"
+A25=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.02-02\Source\GPS\Do_GPS_Data.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2014.01.02-03\Source\GPS\Do_GPS_Data.c"
+A26=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.02-02\Source\GPS\GPS_ANT.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2014.01.02-03\Source\GPS\GPS_ANT.c"
+A27=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.02-02\Source\GSM\GSM_Status.c" "F:\WORK\GPS一体机\程序\第一版 修订2\2014.01.02-03\Source\GSM\GSM_Status.c"
+A28=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.02-04\Source\GPS\Do_GPS_Data.c" "C:\Users\Administrator\Desktop\2014.01.06-01\Source\GPS\Do_GPS_Data.c"
+A29=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.06-01\Source\main.c" ""
+A30=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.06-02\2014.01.06-01\Source\GSM\GSM_Brust.c" "C:\Users\Administrator\Desktop\测试不能注册网络\2014.01.08-01\Source\GSM\GSM_Brust.c"
+A31=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.06-02\2014.01.06-01\Source\GSM\GSM_RD_Data.c" "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.08-01\Source\GSM\GSM_RD_Data.c"
+A32=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.06-02\2014.01.06-01\Source\GSM\GSM_Status.c" "C:\Users\Administrator\Desktop\测试不能注册网络\2014.01.08-01\Source\GSM\GSM_Status.c"
+A33=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.01.06-02\2014.01.06-01\Source\main.c" "C:\Users\Administrator\Desktop\测试不能注册网络\2014.01.08-01\Source\main.c"
+A34=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.03.05-01\Source\GPS\GPS.c" "E:\布谷鸟接收文件夹\蒋本庆(001181)\2014-03-05\2014.03.05-01\2014.03.05-01\Source\GPS\GPS.c"
+A35=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.03.05-01\Source\main.c" "E:\布谷鸟接收文件夹\蒋本庆(001181)\2014-03-05\2014.03.05-01\2014.03.05-01\Source\main.c"
+A36=_ "E:\工作中\2013\GPS一体机\第一版 -修订2\2014.03.18-01\Source\GPS\Do_GPS_Data.c" "F:\2014工作\一体机\2014.05.19-01\2014.05.19-01\Source\GPS\Do_GPS_Data.c"
+A37=_ "E:\工作中\2013\GPS一体机\第一版 -修订\10.24\10.24\Source\GPS\GPS.c" ""
+A38=_ "E:\工作中\2013\GPS一体机\第一版 -修订\10.29\10.29\Source\main.c" "F:\WORK\GPS一体机\程序\11.04\10.29\Source\main.c"
+A39=_ "E:\工作中\2013\GPS一体机\第一版 -修订\第一版 -修订----修改端口 - 副本\Source\main.c" ""
+A40=_ "E:\工作中\2013\GPS一体机\第一版 -修订\分级修改锁车\10.17\Source\GSM\GSM_RD_Data.c" ""
+A41=_ "E:\工作中\2013\GPS一体机\第一版 -修订\分级修改锁车\10.17\Source\GSM\UP\Up_C.c" ""
+A42=_ "E:\工作中\2013\GPS一体机\第一版 -修订\分级修改锁车\10.17\Source\main.c" ""
+A43=_ "E:\工作中\2013\GPS一体机\第一版 -修订\聊城市场装车 13.09.27\10.9\Source\GPS\Do_GPS_Data.c" ""
+A44=_ "E:\工作中\2013\GPS一体机\第一版 -修订\聊城市场装车 13.09.27\10.9\Source\GSM\GSM_Brust.c" ""
+A45=_ "E:\工作中\2013\GPS一体机\第一版 -修订\聊城市场装车 13.09.27\10.9\Source\GSM\GSM_RD_Data.c" ""
+A46=_ "E:\工作中\2013\GPS一体机\第一版 -修订\聊城市场装车 13.09.27\第一版 -修订----低功耗0926\Source\GPS\Do_GPS_Data.c" ""
+A47=_ "E:\工作中\2013\GPS一体机\第一版 -修订\聊城市场装车 13.09.27\第一版 -修订----低功耗0926\Source\GPS\GPS.c" ""
+A48=_ "E:\工作中\2013\GPS一体机\第一版 -修订\聊城市场装车 13.09.27\第一版 -修订----低功耗0926\Source\GSM\GSM.c" ""
+A49=_ "E:\工作中\2013\GPS一体机\第一版 -修订\聊城市场装车 13.09.27\第一版 -修订----低功耗0926\Source\main.c" ""
+A50=_ "E:\工作中\2013\GPS一体机\第一版 -修订\新建文件夹\Source\main.c" "E:\布谷鸟接收文件夹\李凯(001367)\11.06-升级\11.06\Source\main.c"
+A51=_ "F:\WORK\GPS一体机\GPS一体机0702  01\main\Source\main.c" ""
+A52=_ "F:\WORK\GPS一体机\main\Source\main.c" ""
+A53=_ "F:\WORK\GPS一体机\程序\11.04\10.29\Source\main.c" "E:\工作中\2013\GPS一体机\第一版 -修订\第一版 -修订-升级调试11.04\11.04\10.29\Source\main.c"
+A54=_ "F:\WORK\GPS一体机\程序\第一版 修订2\2013.11.28--1\Source\main.c" "E:\工作中\2013\GPS一体机\第一版 -修订2\2013.11.28--1\Source\main.c"
+A55=_ "F:\WORK\GPS一体机\程序\第一版 修订2\2014.01.13-02\Source\main.c" "D:\自动接收\李凯(001367)\2014-01-13\2014.01.13-02\2014.01.13-02\Source\main.c"
+A56=_ "F:\WORK\低功耗\第一版 -修订----低功耗08.29--02\Source\main.c" ""
+Count=57
+SuppressDialog=1

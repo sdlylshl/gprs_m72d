@@ -1,0 +1,59 @@
+#include "msp430x54x.h"
+
+unsigned char GPS_LOCATE_OK;
+
+char  event,RXBuffer[2];
+
+//GPS
+extern unsigned char GPS_LOCATE_OK;
+extern void Init_UCA1UART(void);
+extern void Close_UCA1UART(void);
+//***************************************************************************//
+//  Init_UART(void): 初始化UCA1   GPS                                        //
+//***************************************************************************//
+void Init_UCA1UART(void)
+{
+
+    //UCA1TX P5.6  UCA1RX P5.7
+    P5SEL   |= BIT6 + BIT7                                           ; // 选择引脚功能
+    P5DIR   |= BIT6                                                  ; // TX设置为输出
+    UCA1CTL1        = UCSWRST                                        ; // 状态机复位
+    UCA1CTL1       |= UCSSEL_1                                       ; // CLK = ACLK
+
+    UCA1BR0         = 0x03                                           ; // 32kHz/9600=3.41
+    UCA1BR1         = 0x00                                           ;
+    UCA1MCTL        = UCBRS_3 + UCBRF_0                              ; // UCBRSx=3, UCBRFx=0
+
+    UCA1CTL1       &= ~UCSWRST                                       ; // 启动状态机
+    UCA1IE         |= UCRXIE                                         ; // 允许接收中断
+}
+void Close_UCA1UART(void)
+{
+
+    //UCA1TX P5.6  UCA1RX P5.7
+    P5SEL   &= ~(BIT6 + BIT7)                                        ; // 设置为普通IO
+    P5DIR   &= ~(BIT6 + BIT7)                                        ; // TX RX 设置为输入
+    //关闭UCA1
+    UCA1CTL1        = UCSWRST                                        ; // 状态机复位
+}
+
+//***************************************************************************//
+//  GPS接收中断服务程序                                                      //
+//***************************************************************************//
+#pragma vector=USCI_A1_VECTOR
+__interrupt void USCI_A1_ISR(void)
+{
+    switch(__even_in_range(UCA1IV,4)) {
+    case 0:
+        break                                                     ; // Vector 0 - no interrupt
+    case 2:                                                            // Vector 2 - RXIFG
+
+        RXBuffer[1]      = UCA1RXBUF                                 ;
+        event           |= 0x01                                      ;
+        break                                                        ;
+    case 4:
+        break                                                     ;  // Vector 4 - TXIFG
+    default:
+        break                                                   ;
+    }
+}
